@@ -1,0 +1,92 @@
+/* navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  height: 60px;
+}
+
+/* .navbar-logo {
+  width: 40px;
+  height: 40px;
+} */
+
+.navbar-link {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link-item {
+  font-size: 1.2rem;
+}
+
+/* Add styling for the Reset button */
+.navbar-link-btn {
+  height: 100%; /* Make the button take the full height of the parent */
+  padding: 0; /* Remove padding to fit the full height */
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  color: white;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.navbar-link-btn:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+  font-size: 1.1rem; /* Increase the font size on hover */
+  color: rgb(139, 238, 174);
+}
+
+.diagram-component {
+  width: 400px;
+  height: 400px;
+  border: solid 1px black;
+  background-color: white;
+}
+
+/* Style for the entire client metrics section */
+.client-metrics {
+  background-color: #f5f5f5; /* Background color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 5px; /* Rounded corners for a card-like appearance */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation */
+  color: #000;
+}
+
+/* Style for the client list */
+.client-list {
+  margin-top: 20px; /* top margin for spacing */
+}
+
+/* Style for the table */
+table {
+  width: 100%; /*full width of its container */
+  border-collapse: collapse; /* Collapse borders for a cleaner look */
+  background-color: #fff; /* White background for the table */
+  border-radius: 5px; /* Rounded corners for the table */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for the table */
+}
+
+/* Style for table headings */
+table th {
+  background-color: #f2f2f2; /* Light gray background for headings */
+  padding: 10px; /* Padding for spacing */
+  text-align: left; /* Left-align text in headings */
+  font-weight: bold; /* Bold font for headings */
+  border-bottom: 1px solid #ddd; /* Bottom border for headings */
+}
+
+/* Style for table rows */
+table td {
+  padding: 10px; /* Padding for spacing within cells */
+  border-bottom: 1px solid #ddd; /* Bottom border for table rows */
+}
+
+/* Style for alternating row colors */
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray background for even rows */
+}
